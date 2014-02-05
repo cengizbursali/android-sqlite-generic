@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="left"
+    android:orientation="vertical" >
+ 
+    <EditText
+        android:id="@+id/txtEng"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtEngHint"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtTr"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEng"
+        android:layout_marginRight="90dp"
+        android:hint="@string/txtTrHint"
+        android:inputType="text" />
+ 
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_below="@id/txtTr"
+        android:cacheColorHint="#CCCCCCCC"
+        android:background="#EEEEEEEE"
+    />
+ 
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@android:id/list"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:text="@string/txtEmpty" />
+    
+    <Button
+        android:id="@+id/btnAddToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtTr"
+        android:layout_alignParentRight="true"
+        android:text="@string/lblBtnAdd" />
+    
+    <!-- <TextView
+        android:id="@+id/lblCategory"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@android:id/empty"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/lblCategory" />
+    
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/lblCategory"
+        android:layout_below="@android:id/empty"
+        android:prompt="@string/lblCategory" /> -->
+
+    <TextView
+        android:id="@+id/lblType"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:text="@string/lblType"
+        android:layout_below="@android:id/empty"/>
+    <!-- android:layout_below="@+id/spinnerCategory" -->
+    
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/lblType"
+        android:layout_alignParentRight="true"
+        android:layout_below="@android:id/empty"
+        android:prompt="@string/lblType"/>
+    <!-- android:layout_below="@+id/spinnerCategory" -->
+    
+    <TextView
+        android:id="@+id/lblLevel"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/spinnerType"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="true"
+        android:text="@string/lblLevel" />
+    
+    <Spinner
+        android:id="@+id/spinnerLevel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@id/lblLevel"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinnerType"
+        android:prompt="@string/lblLevel" />
+
+ 	<Button
+ 	    android:id="@+id/btnHome"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentRight="true"
+ 	    android:layout_below="@+id/spinnerLevel"
+ 	    android:layout_toRightOf="@+id/btnAddToDatabase"
+ 	    android:text="@string/btnHome" />
+
+ 	<Button
+ 	    android:id="@+id/btnAddToDatabase"
+ 	    android:layout_width="150dp"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignLeft="@+id/spinnerLevel"
+ 	    android:layout_below="@+id/spinnerLevel"
+ 	    android:text="@string/btnAddToDatabase" />
+    
+</RelativeLayout>

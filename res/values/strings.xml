@@ -1,0 +1,56 @@
+<resources>
+
+    <string name="app_name">Wordy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">WORDY</string>
+    <string name="txtEng">Eng</string>
+    <string name="hintTxtItem">Enter an item here..</string>
+    <string name="lblBtnAdd">Add to List</string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="txtEngHint">Eng</string>
+    <string name="txtTrHint">Tr</string>
+    <string name="txtTypeHint">Type</string>
+    
+    
+    <string name="btnAddToDatabase">Insert</string>
+    <string name="btnHome">Home</string>
+    
+    <string name="page_add_word">Add New Word</string>
+    <string name="page_play_wordy">Play Wordy</string>
+    <string name="export_wordy">Export Words</string>
+    <string name="import_wordy">Import Words</string>
+    
+    
+    <string name="warnAddToList">Enter a valid value!</string>
+    <string name="warnNullValue">Please, enter valid values!</string>
+    <string name="warnAddedValue">Word is already added!</string>
+    
+    <string name="warnSelectError">An error occured! Try again!</string>
+    
+    <string name="infoSuccessfullyAdded">Word is successfully added!</string>
+    
+    <string name="lblCategory">Category</string>
+    <string name="lblType">Type</string>
+    <string name="lblLevel">Level</string>
+    
+    
+    <string name="lblEngWord">Level</string>
+    <string name="lblTrWord">Level</string>
+    <string name="lblBtnShowWord">Show Meaning</string>
+    <string name="lblBtnNextWord">Next Word</string>
+    
+    <string name="btnPlayGame">Play Wordy</string>
+    <string name="btnAddWord">Add Word</string>
+    <string name="btnSearchWord">Search Word</string>
+    <string name="btnExportWord">Export Words</string>
+    <string name="btnImportWord">Import Words</string>
+    
+    
+    <string name="VERY_EASY">Very Easy</string>
+    <string name="EASY">Easy</string>
+    <string name="NORMAL">Normal</string>
+    <string name="HARD">Hard</string>
+    <string name="VERY_HARD">Very Hard</string>
+
+</resources>

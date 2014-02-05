@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="left"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnNextWord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/lblBtnNextWord" />
+
+    <Button
+        android:id="@+id/btnShowWord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNextWord"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/lblBtnShowWord" />
+
+    <TextView
+        android:id="@+id/lblEngWord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/lblEngWord"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/lblTrWord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblEngWord"
+        android:layout_marginTop="25dp"
+        android:text="@string/lblTrWord"
+        android:textSize="25sp" />
+
+</RelativeLayout>
